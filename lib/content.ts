@@ -12,9 +12,9 @@ export const COMPANY = {
   ownerName: "Nelson Trindade",
   yearsInMarket: 30,
   teamSize: 6,
-  whatsappNumber: "5500000000000", // [PLACEHOLDER] formato: 55 + DDD + número
+  whatsappNumber: "5567998948075",
   whatsappMessage: "Olá! Cheguei ao site da T'Service Infra e queria confirmar uns detalhes antes de fechar.",
-  phoneDisplay: "(00) 00000-0000", // [PLACEHOLDER]
+  phoneDisplay: "(67) 99894-8075",
   email: "contato@tserviceinfra.com.br", // [PLACEHOLDER]
   city: "Sua Região", // [PLACEHOLDER]
 };
