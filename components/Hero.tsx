@@ -22,11 +22,11 @@ export default function Hero() {
 
         <h1 className="text-3xl font-bold leading-tight text-paper sm:text-5xl md:text-6xl">
           {COMPANY.yearsInMarket} anos de obra.{" "}
-          <span className="text-brand">Mesma equipe, do início ao fim.</span>
+          <span className="text-brand">Comando direto, do início ao fim.</span>
         </h1>
 
         <p className="mt-5 max-w-2xl text-base text-paper/70 sm:mt-6 sm:text-lg">
-          Pavimentação, elétrica, pisos e terraplenagem com uma equipe fixa de {COMPANY.teamSize} profissionais. {COMPANY.ownerName.split(" ")[0]} comanda a obra pessoalmente, do início ao fim — sem terceirizar etapa, sem trocar equipe no meio do caminho.
+          Pavimentação, elétrica, pisos e terraplenagem com uma base fixa de até {COMPANY.teamSize} profissionais. {COMPANY.ownerName.split(" ")[0]} comanda a obra pessoalmente, do início ao fim — sem terceirizar etapa, sem trocar equipe no meio do caminho.
         </p>
 
         <div className="mt-8 flex w-full flex-col gap-3 sm:mt-10 sm:w-auto sm:flex-row sm:gap-4">

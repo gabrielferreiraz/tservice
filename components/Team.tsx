@@ -10,12 +10,12 @@ export default function Team() {
             Equipe
           </span>
           <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-            Os mesmos {COMPANY.teamSize}, em toda obra
+            Time próprio, não montado por obra
           </h2>
           <p className="mt-4 text-ink/60">
-            {COMPANY.ownerName} não monta equipe nova a cada contrato. São profissionais fixos, que já
-            trabalham juntos há anos e conhecem o padrão de entrega exigido — o que evita atraso por
-            troca de mão de obra no meio da obra.
+            {COMPANY.ownerName} trabalha com uma base fixa de até {COMPANY.teamSize} profissionais que já
+            atuam com ele há anos. Nem toda obra leva todo mundo, mas ninguém desconhecido entra no
+            time no meio do caminho — e a equipe não é trocada durante a obra.
           </p>
         </div>
 

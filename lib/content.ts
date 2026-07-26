@@ -29,7 +29,7 @@ export const DIFFERENTIALS = [
     icon: "Users",
     title: "Equipe própria e completa",
     description:
-      `Os mesmos ${COMPANY.teamSize} profissionais em toda obra: pavimentação, elétrica, pisos e terraplenagem. Ninguém é chamado de última hora nem contratado só para aquele serviço.`,
+      `Base fixa de até ${COMPANY.teamSize} profissionais, que cobre pavimentação, elétrica, pisos e terraplenagem. Ninguém é chamado de última hora nem contratado só para aquele serviço.`,
   },
   {
     icon: "CalendarCheck",
@@ -87,8 +87,8 @@ export const SERVICES = [
 // Equipe fixa — sem fotos ainda. Em vez de placeholder de avatar,
 // a prova é feita por dado concreto (quantidade, frentes, permanência).
 export const TEAM_STATS = [
-  { value: `${COMPANY.teamSize}`, label: "Profissionais fixos, os mesmos em toda obra" },
-  { value: "4", label: "Frentes técnicas cobertas pela mesma equipe" },
+  { value: `${COMPANY.teamSize}`, label: "Profissionais na base fixa da equipe" },
+  { value: "4", label: "Frentes técnicas cobertas pela equipe" },
   { value: "1", label: "Comando único, do início ao fim: o Nelson" },
 ];
 
