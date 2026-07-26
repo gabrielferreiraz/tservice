@@ -35,7 +35,7 @@ export const DIFFERENTIALS = [
     icon: "CalendarCheck",
     title: "Prazo é compromisso",
     description:
-      "Cronograma combinado no início e seguido à risca — inclusive em obras de 6 meses ou mais. Quando algo muda no meio do caminho, o cliente sabe antes, não depois.",
+      "Cronograma combinado no início e seguido à risca, inclusive em obras de 6 meses ou mais. Quando algo muda no meio do caminho, o cliente sabe antes, não depois.",
   },
   {
     icon: "History",
@@ -107,7 +107,7 @@ export const CAPACITY_PHASES = [
     icon: "ClipboardList",
     title: "Cronograma antes da primeira máquina entrar",
     description:
-      "O prazo é definido com o cliente no início, com base no que a obra realmente exige — não no que seria mais fácil prometer.",
+      "O prazo é definido com o cliente no início, com base no que a obra realmente exige, não no que seria mais fácil prometer.",
   },
   {
     step: "02",
@@ -121,7 +121,7 @@ export const CAPACITY_PHASES = [
     icon: "RefreshCw",
     title: "Ajuste combinado, não descoberto depois",
     description:
-      "Se algo no terreno muda o plano, o cliente é avisado na hora — o cronograma é revisto junto, não silenciado até o fim.",
+      "Se algo no terreno muda o plano, o cliente é avisado na hora. O cronograma é revisto junto, não silenciado até o fim.",
   },
 ];
 

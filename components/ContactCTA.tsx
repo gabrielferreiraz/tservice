@@ -12,7 +12,7 @@ export default function ContactCTA() {
             Dúvida antes de fechar? Fala com o Nelson direto.
           </h2>
           <p className="mt-4 max-w-xl text-paper/70">
-            Fala direto com {COMPANY.ownerName.split(" ")[0]} pelo WhatsApp ou por telefone — sem
+            Fala direto com {COMPANY.ownerName.split(" ")[0]} pelo WhatsApp ou por telefone, sem
             script de vendas, sem intermediário.
           </p>
 

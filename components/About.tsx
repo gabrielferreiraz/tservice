@@ -15,10 +15,10 @@ export default function About() {
             Fundador da T&apos;Service Infra
           </p>
           <p className="mt-6 text-lg leading-relaxed text-ink/70">
-            O nome &quot;Infra&quot; não é acaso. A equipe cobre pavimentação, elétrica, pisos e terraplenagem, tudo sob o comando direto de {COMPANY.ownerName} — no canteiro, não numa planilha em outra cidade.
+            O nome &quot;Infra&quot; não é acaso. A equipe cobre pavimentação, elétrica, pisos e terraplenagem, tudo sob o comando direto de {COMPANY.ownerName}, no canteiro, não numa planilha em outra cidade.
           </p>
           <p className="mt-4 text-lg leading-relaxed text-ink/70">
-            Quem contrata uma vez, contrata de novo. Quando aparece problema no campo, é o próprio {COMPANY.ownerName.split(" ")[0]} quem resolve — não um preposto, não uma equipe terceirizada montada só para aquela obra.
+            Quem contrata uma vez, contrata de novo. Quando aparece problema no campo, é o próprio {COMPANY.ownerName.split(" ")[0]} quem resolve, não um preposto, não uma equipe terceirizada montada só para aquela obra.
           </p>
         </div>
 

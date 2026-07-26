@@ -15,7 +15,7 @@ export default function Team() {
           <p className="mt-4 text-ink/60">
             {COMPANY.ownerName} trabalha com uma base fixa de até {COMPANY.teamSize} profissionais que já
             atuam com ele há anos. Nem toda obra leva todo mundo, mas ninguém desconhecido entra no
-            time no meio do caminho — e a equipe não é trocada durante a obra.
+            time no meio do caminho, e a equipe não é trocada durante a obra.
           </p>
         </div>
 
