@@ -1,26 +1,47 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0b0b0c;
+  --foreground: #f5f4f2;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-oswald);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-brand: #f2541b;
+  --color-brand-dark: #c23a0d;
+  --color-brand-light: #ff9142;
+  --color-ink: #0b0b0c;
+  --color-ink-soft: #242428;
+  --color-paper: #f5f4f2;
+  --color-stone: #eae4da;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Compensa o header sticky ao navegar por âncora (#id), para o título
+   da seção não ficar escondido atrás dele. */
+section[id] {
+  scroll-margin-top: 4.5rem;
+}
+
+/* Esconde o botão flutuante do WhatsApp enquanto o menu mobile está
+   aberto — evita dois CTAs de WhatsApp competindo na mesma tela. */
+body.menu-open .whatsapp-float {
+  display: none;
 }
